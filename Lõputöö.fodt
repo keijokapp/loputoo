@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2015-05-08T12:07:21.748835790</meta:creation-date><dc:date>2015-12-04T11:44:00.573153534</dc:date><meta:editing-duration>PT9H44M16S</meta:editing-duration><meta:editing-cycles>63</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="13" meta:paragraph-count="69" meta:word-count="450" meta:character-count="3532" meta:non-whitespace-character-count="3067"/></office:meta>
+ <office:meta><meta:creation-date>2015-05-08T12:07:21.748835790</meta:creation-date><dc:date>2015-12-04T14:33:56.918930330</dc:date><meta:editing-duration>PT9H44M16S</meta:editing-duration><meta:editing-cycles>64</meta:editing-cycles><meta:generator>LibreOffice/4.2.8.2$Linux_X86_64 LibreOffice_project/420m0$Build-2</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="14" meta:paragraph-count="69" meta:word-count="450" meta:character-count="3533" meta:non-whitespace-character-count="3068"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
@@ -13,8 +13,8 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">7860</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">3041</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">11157</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">10832</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">24342</config:config-item>
@@ -81,7 +81,7 @@
    <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="Rsid" config:type="int">5765845</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">5828044</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
    <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
@@ -418,108 +418,179 @@
    <style:text-properties officeooo:rsid="0056974c" officeooo:paragraph-rsid="0056974c"/>
   </style:style>
   <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0038b0ca" officeooo:paragraph-rsid="0038b0ca"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0038f002" officeooo:paragraph-rsid="0038f002"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0038f002" officeooo:paragraph-rsid="0039f9c0"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0039f9c0" officeooo:paragraph-rsid="0039f9c0"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:text-align="end" style:justify-single-word="false" fo:break-before="page"/>
    <style:text-properties officeooo:rsid="0039f9c0" officeooo:paragraph-rsid="003582ca"/>
   </style:style>
-  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Frame_20_contents">
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Frame_20_contents">
    <style:text-properties officeooo:rsid="003b8bf2" officeooo:paragraph-rsid="003b8bf2"/>
   </style:style>
-  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Lisa">
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Lisa">
    <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Contents_20_Heading">
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Contents_20_Heading">
    <style:text-properties officeooo:rsid="0018d3c2" officeooo:paragraph-rsid="00416fdd"/>
   </style:style>
-  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Contents_20_1">
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Contents_20_1">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="6.0201in" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Contents_20_2">
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Contents_20_2">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="5.8236in" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Contents_20_3">
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Contents_20_3">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="5.6272in" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-size="20pt" officeooo:rsid="0016aece" officeooo:paragraph-rsid="0016aece" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
-  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="First_20_Page">
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0038b0ca" officeooo:paragraph-rsid="0038b0ca"/>
-  </style:style>
-  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0038f002" officeooo:paragraph-rsid="0038f002"/>
-  </style:style>
-  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0038f002" officeooo:paragraph-rsid="0039f9c0"/>
-  </style:style>
-  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties officeooo:rsid="0039f9c0" officeooo:paragraph-rsid="0039f9c0"/>
-  </style:style>
-  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Heading_20_3">
-   <style:text-properties officeooo:rsid="001d798f" officeooo:paragraph-rsid="001d798f"/>
-  </style:style>
-  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:rsid="0018d3c2"/>
-  </style:style>
-  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:rsid="0018d3c2" officeooo:paragraph-rsid="0018d3c2"/>
   </style:style>
-  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:rsid="001922ac" officeooo:paragraph-rsid="001922ac"/>
   </style:style>
-  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:rsid="00199263" officeooo:paragraph-rsid="00199263"/>
   </style:style>
-  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:rsid="001b948a" officeooo:paragraph-rsid="001b948a"/>
   </style:style>
-  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:rsid="001d798f" officeooo:paragraph-rsid="001d798f"/>
   </style:style>
-  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:rsid="001fbc70" officeooo:paragraph-rsid="001fbc70"/>
   </style:style>
-  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
    <style:text-properties officeooo:rsid="00340715" officeooo:paragraph-rsid="00340715"/>
   </style:style>
-  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
    <style:text-properties officeooo:rsid="003582ca" officeooo:paragraph-rsid="003582ca"/>
   </style:style>
-  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Heading_20_2">
-   <style:text-properties officeooo:paragraph-rsid="001d798f"/>
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Contents_20_Heading" style:master-page-name="">
+   <style:paragraph-properties style:page-number="auto"/>
+  </style:style>
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="001d798f" officeooo:paragraph-rsid="001d798f"/>
+  </style:style>
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:rsid="0018d3c2"/>
   </style:style>
   <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="001d798f"/>
+  </style:style>
+  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="005143c3" officeooo:paragraph-rsid="005143c3"/>
   </style:style>
-  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Contents_20_Heading" style:master-page-name="First_20_Page">
+  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
+   <style:text-properties fo:font-size="20pt" officeooo:rsid="0016aece" officeooo:paragraph-rsid="0016aece" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="First_20_Page">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0038b0ca" officeooo:paragraph-rsid="0038b0ca"/>
+  </style:style>
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0038f002" officeooo:paragraph-rsid="0038f002"/>
+  </style:style>
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0038f002" officeooo:paragraph-rsid="0039f9c0"/>
+  </style:style>
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0039f9c0" officeooo:paragraph-rsid="0039f9c0"/>
+  </style:style>
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:rsid="0018d3c2"/>
+  </style:style>
+  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="0018d3c2" officeooo:paragraph-rsid="0018d3c2"/>
+  </style:style>
+  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="001922ac" officeooo:paragraph-rsid="001922ac"/>
+  </style:style>
+  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="00199263" officeooo:paragraph-rsid="00199263"/>
+  </style:style>
+  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="001b948a" officeooo:paragraph-rsid="001b948a"/>
+  </style:style>
+  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="001d798f" officeooo:paragraph-rsid="001d798f"/>
+  </style:style>
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="001fbc70" officeooo:paragraph-rsid="001fbc70"/>
+  </style:style>
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="00340715" officeooo:paragraph-rsid="00340715"/>
+  </style:style>
+  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Heading_20_1" style:master-page-name="First_20_Page">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" style:page-number="auto"/>
+   <style:text-properties officeooo:rsid="003582ca" officeooo:paragraph-rsid="003582ca"/>
+  </style:style>
+  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:paragraph-rsid="001d798f"/>
+  </style:style>
+  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:text-properties officeooo:rsid="005143c3" officeooo:paragraph-rsid="005143c3"/>
+  </style:style>
+  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Heading_20_3">
+   <style:text-properties officeooo:rsid="001d798f" officeooo:paragraph-rsid="001d798f"/>
+  </style:style>
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Contents_20_Heading" style:master-page-name="First_20_Page">
    <style:paragraph-properties style:page-number="auto"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -569,6 +640,9 @@
   </style:style>
   <style:style style:name="T16" style:family="text">
    <style:text-properties officeooo:rsid="0056974c"/>
+  </style:style>
+  <style:style style:name="T17" style:family="text">
+   <style:text-properties officeooo:rsid="0058edcc"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Frame">
    <style:graphic-properties style:vertical-pos="top" style:vertical-rel="paragraph-content" style:horizontal-pos="center" style:horizontal-rel="paragraph-content"/>
@@ -670,7 +744,7 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Lisa"/>
    </text:sequence-decls>
-   <text:p text:style-name="P34">TALLINNA POLÜTEHNIKUM</text:p>
+   <text:p text:style-name="P53">TALLINNA POLÜTEHNIKUM</text:p>
    <text:p text:style-name="P4">IT ja telekommunikatsioon erialaosakond</text:p>
    <text:p text:style-name="P1"/>
    <text:p text:style-name="P1"/>
@@ -679,7 +753,7 @@
    <text:p text:style-name="P1"/>
    <text:p text:style-name="P7">Keijo Kapp</text:p>
    <text:p text:style-name="P1"/>
-   <text:p text:style-name="P10">Kõrge terviklikkusega andmete talletamise andmebaasilahenduse prototüüp</text:p>
+   <text:p text:style-name="P10">Kõrge terviklikk<text:span text:style-name="T17">a</text:span>usega andmete talletamise andmebaasilahenduse prototüüp</text:p>
    <text:p text:style-name="P1"/>
    <text:p text:style-name="P1"/>
    <text:p text:style-name="P8">Lõputöö</text:p>
@@ -698,7 +772,7 @@
    <text:p text:style-name="P1"/>
    <text:p text:style-name="P1"/>
    <text:p text:style-name="P6">Tallinn 2015</text:p>
-   <text:p text:style-name="P35">AUTORIDEKLARATSIOON</text:p>
+   <text:p text:style-name="P54">AUTORIDEKLARATSIOON</text:p>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard">Deklareerin, et käesolev lõputöö, mis on minu iseseisva töö tulemus, on esitatud Tallinna Polütehnikumi lõputunnistuse taotlemiseks Arvutid ja arvutivõrgud erialal. Lõputöö alusel ei ole varem eriala lõputunnistust taotletud.</text:p>
    <text:p text:style-name="Standard"/>
@@ -719,7 +793,7 @@
    <text:p text:style-name="P3"/>
    <text:p text:style-name="P3">Juhendaja ..................................</text:p>
    <text:p text:style-name="P3"><text:s text:c="20"/>(allkiri ja kuupäev)</text:p>
-   <text:p text:style-name="P30"/>
+   <text:p text:style-name="P34"/>
    <text:table-of-content text:style-name="Sect1" text:protected="true" text:name="Table of Contents1">
     <text:table-of-content-source text:outline-level="10">
      <text:index-title-template text:style-name="Contents_20_Heading">Sisukord</text:index-title-template>
@@ -806,85 +880,85 @@
     </text:table-of-content-source>
     <text:index-body>
      <text:index-title text:style-name="Sect1" text:name="Table of Contents1_Head">
-      <text:p text:style-name="P52">Sisukord</text:p>
+      <text:p text:style-name="P71">Sisukord</text:p>
      </text:index-title>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__295_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Lühendid ja terminid<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__297_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Sissejuhatus<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__299_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1. Siseministeeriumi Infotehno …<text:tab/>6</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__301_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2. Lahendatav probleem<text:tab/>7</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__303_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3. Projekteerimine (v planeerimine?)<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P32"><text:a xlink:type="simple" xlink:href="#__RefHeading__305_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.1. Nõuete analüüs<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P32"><text:a xlink:type="simple" xlink:href="#__RefHeading__313_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.2. Arendusmudel<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P32"><text:a xlink:type="simple" xlink:href="#__RefHeading__315_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.3. Kasutatavad tehnoloogiad<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P33"><text:a xlink:type="simple" xlink:href="#__RefHeading__319_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.3.2 PostgreSQL<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__323_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4. Töö teostus<text:tab/>9</text:a></text:p>
-     <text:p text:style-name="P32"><text:a xlink:type="simple" xlink:href="#__RefHeading__337_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.3. Testimine<text:tab/>9</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__347_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Kokkuvõte<text:tab/>10</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__349_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Allikad<text:tab/>11</text:a></text:p>
-     <text:p text:style-name="P31"><text:a xlink:type="simple" xlink:href="#__RefHeading__351_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Lisad<text:tab/>12</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__295_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Lühendid ja terminid<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__297_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Sissejuhatus<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__299_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1. Siseministeeriumi Infotehno …<text:tab/>6</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__301_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">2. Lahendatav probleem<text:tab/>7</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__303_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3. Projekteerimine (v planeerimine?)<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P36"><text:a xlink:type="simple" xlink:href="#__RefHeading__305_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.1. Nõuete analüüs<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P36"><text:a xlink:type="simple" xlink:href="#__RefHeading__313_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.2. Arendusmudel<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P36"><text:a xlink:type="simple" xlink:href="#__RefHeading__315_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.3. Kasutatavad tehnoloogiad<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P37"><text:a xlink:type="simple" xlink:href="#__RefHeading__319_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">3.3.2 PostgreSQL<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__323_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4. Töö teostus<text:tab/>9</text:a></text:p>
+     <text:p text:style-name="P36"><text:a xlink:type="simple" xlink:href="#__RefHeading__337_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.3. Testimine<text:tab/>9</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__347_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Kokkuvõte<text:tab/>10</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__349_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Allikad<text:tab/>11</text:a></text:p>
+     <text:p text:style-name="P35"><text:a xlink:type="simple" xlink:href="#__RefHeading__351_1302403536" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Lisad<text:tab/>12</text:a></text:p>
     </text:index-body>
    </text:table-of-content>
-   <text:h text:style-name="P41" text:outline-level="1"/>
-   <text:h text:style-name="P42" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__295_1302403536"/>Lühendid ja terminid<text:bookmark-end text:name="__RefHeading__295_1302403536"/></text:h>
+   <text:h text:style-name="P50" text:outline-level="1"/>
+   <text:h text:style-name="P60" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__295_1302403536"/>Lühendid ja terminid<text:bookmark-end text:name="__RefHeading__295_1302403536"/></text:h>
    <text:p text:style-name="P11"/>
-   <text:p text:style-name="P18">JSON – JavaScript Object Notation – <text:span text:style-name="T5">standard andmete hoidmiseks ja edastamiseks tekstikujul</text:span></text:p>
+   <text:p text:style-name="P18"><text:soft-page-break/>JSON – JavaScript Object Notation – <text:span text:style-name="T5">standard andmete hoidmiseks ja edastamiseks tekstikujul</text:span></text:p>
    <text:p text:style-name="P18">JSONB – JSON Binary – binaarne struktueeritud JSON vorm</text:p>
    <text:p text:style-name="P19">ISKE – Peamiselt Eesti avaliku sektori infovaradel kasutatav <text:span text:style-name="T6">k</text:span>olmeastmeline etalonturbe süsteem</text:p>
    <text:p text:style-name="P20">SK – Sertifitseerimiskeskus AS – <text:span text:style-name="T7">peamiselt krüptograafiliste võtmete sertifitseerimisteenust pakkuv ettevõte.</text:span></text:p>
    <text:p text:style-name="P21">MID – Mobiil-ID – mugavusteenus, mis võimaldab autentida ja digiallkirjastada dokumente mobiiltelefoni abil.</text:p>
-   <text:h text:style-name="P43" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__297_1302403536"/>Sissejuhatus<text:bookmark-end text:name="__RefHeading__297_1302403536"/></text:h>
+   <text:h text:style-name="P61" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__297_1302403536"/>Sissejuhatus<text:bookmark-end text:name="__RefHeading__297_1302403536"/></text:h>
    <text:p text:style-name="P23"/>
-   <text:h text:style-name="P44" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__299_1302403536"/>1. <text:span text:style-name="T9">Ettevõttest</text:span><text:bookmark-end text:name="__RefHeading__299_1302403536"/></text:h>
+   <text:h text:style-name="P62" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__299_1302403536"/>1. <text:span text:style-name="T9">Ettevõttest</text:span><text:bookmark-end text:name="__RefHeading__299_1302403536"/></text:h>
    <text:p text:style-name="P12"/>
-   <text:h text:style-name="P44" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__301_1302403536"/>2. Lahendatav probleem<text:bookmark-end text:name="__RefHeading__301_1302403536"/></text:h>
+   <text:h text:style-name="P62" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__301_1302403536"/>2. Lahendatav probleem<text:bookmark-end text:name="__RefHeading__301_1302403536"/></text:h>
    <text:p text:style-name="P13"/>
-   <text:h text:style-name="P45" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__303_1302403536"/>3. Projekteerimine <text:span text:style-name="T1">(v planeerimine?)</text:span><text:bookmark-end text:name="__RefHeading__303_1302403536"/></text:h>
+   <text:h text:style-name="P63" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__303_1302403536"/>3. Projekteerimine <text:span text:style-name="T1">(v planeerimine?)</text:span><text:bookmark-end text:name="__RefHeading__303_1302403536"/></text:h>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__305_1302403536"/>3.1. <text:span text:style-name="T1">Nõuete analüüs</text:span><text:bookmark-end text:name="__RefHeading__305_1302403536"/></text:h>
-   <text:h text:style-name="P50" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__313_1302403536"/>3.<text:span text:style-name="T1">2</text:span>. <text:span text:style-name="T1">Arendusmudel</text:span><text:bookmark-end text:name="__RefHeading__313_1302403536"/></text:h>
-   <text:h text:style-name="P50" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__315_1302403536"/>3.<text:span text:style-name="T1">3</text:span>. <text:span text:style-name="T1">Kasutatavad tehnoloogiad</text:span><text:bookmark-end text:name="__RefHeading__315_1302403536"/></text:h>
+   <text:h text:style-name="P51" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__313_1302403536"/>3.<text:span text:style-name="T1">2</text:span>. <text:span text:style-name="T1">Arendusmudel</text:span><text:bookmark-end text:name="__RefHeading__313_1302403536"/></text:h>
+   <text:h text:style-name="P51" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__315_1302403536"/>3.<text:span text:style-name="T1">3</text:span>. <text:span text:style-name="T1">Kasutatavad tehnoloogiad</text:span><text:bookmark-end text:name="__RefHeading__315_1302403536"/></text:h>
    <text:p text:style-name="Text_20_body">Ma ei usu, et siia alla läheb keskkond, milles töö teostati (IDE, serveri stack), aga ma pole kindel, kuhu selle võiks kirjutada.</text:p>
-   <text:h text:style-name="P40" text:outline-level="3"><text:bookmark-start text:name="__RefHeading__319_1302403536"/>3.3.2 <text:span text:style-name="T8">PostgreSQL</text:span><text:bookmark-end text:name="__RefHeading__319_1302403536"/></text:h>
+   <text:h text:style-name="P49" text:outline-level="3"><text:bookmark-start text:name="__RefHeading__319_1302403536"/>3.3.2 <text:span text:style-name="T8">PostgreSQL</text:span><text:bookmark-end text:name="__RefHeading__319_1302403536"/></text:h>
    <text:p text:style-name="P22"/>
-   <text:h text:style-name="P46" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__323_1302403536"/>4. <text:span text:style-name="T2">Töö teostus</text:span><text:bookmark-end text:name="__RefHeading__323_1302403536"/></text:h>
+   <text:h text:style-name="P64" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__323_1302403536"/>4. <text:span text:style-name="T2">Töö teostus</text:span><text:bookmark-end text:name="__RefHeading__323_1302403536"/></text:h>
    <text:p text:style-name="P14"/>
-   <text:h text:style-name="P51" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__337_1302403536"/><text:bookmark-end text:name="__RefHeading__337_1302403536"/></text:h>
+   <text:h text:style-name="P52" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__337_1302403536"/><text:bookmark-end text:name="__RefHeading__337_1302403536"/></text:h>
    <text:p text:style-name="P15"/>
-   <text:h text:style-name="P47" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__347_1302403536"/>Kokkuvõte<text:bookmark-end text:name="__RefHeading__347_1302403536"/></text:h>
+   <text:h text:style-name="P65" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__347_1302403536"/>Kokkuvõte<text:bookmark-end text:name="__RefHeading__347_1302403536"/></text:h>
    <text:p text:style-name="P23">Lõputöö käigus uuriti erinevaid <text:span text:style-name="T10">tehnilisi </text:span>lahendusi, mida saaks kasutada andmete kõrge terviklikkuse tagamiseks. Lahenduste eesmärk oli rakendada ISKE HT.10 ja HT.?? meetmed ning tagada andmebaasis hoitavate andmete paindlikkus ja jälgitavus. Lõputöö käigus on valminud <text:span text:style-name="T10">mitmeid </text:span>teste <text:span text:style-name="T10">jõudluse mõõtmiseks ja vigade ära hoidmiseks.</text:span></text:p>
    <text:p text:style-name="P25">Ka on autor <text:span text:style-name="T16">teinud kaks parandust</text:span> suhteliselt uu<text:span text:style-name="T16">d</text:span>e DigiDoc<text:span text:style-name="T16">&apos;i</text:span> tee<text:span text:style-name="T16">k</text:span>i nimega <text:span text:style-name="T11">digidoc4j</text:span><text:span text:style-name="T13">, </text:span><text:span text:style-name="T14">mis oli veel lõputöö alguses </text:span><text:span text:style-name="T12">beta</text:span><text:span text:style-name="T14"> arengujärgus</text:span>. Esimene muudatus <text:span text:style-name="T16">parandas koodis ebaühtsuse, mis üllatavalt põhjustas üsna raskesti tuvastatava probleemi. See probleem ei võimaldanud kasutada teeki ettevõtte poolt kasutataval platvormil.</text:span></text:p>
    <text:p text:style-name="P26">Teine parandus oli veaparandus. </text:p>
    <text:p text:style-name="P25"/>
    <text:p text:style-name="P25"><text:span text:style-name="T16"><text:s/></text:span>tegi teegi kastutataval platvormil mõnevõrra kasutatavaks ning teine muudatus oli parandus veale, mis võis tekkida teatud mittetüüpilistes olukordades.</text:p>
    <text:p text:style-name="P24">Uurimuse tulemust kasutatakse vähemalt ühe uue infosüsteemi loomisel, millel on kõrge terviklikkuse ja käideldavuse nõue. <text:span text:style-name="T15">Uurimustöö </text:span></text:p>
-   <text:h text:style-name="P48" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__349_1302403536"/>Allikad<text:bookmark-end text:name="__RefHeading__349_1302403536"/></text:h>
+   <text:h text:style-name="P66" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__349_1302403536"/>Allikad<text:bookmark-end text:name="__RefHeading__349_1302403536"/></text:h>
    <text:p text:style-name="P17">Autor (aasta). pealkiri [link]</text:p>
    <text:p text:style-name="P17"/>
-   <text:h text:style-name="P49" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__351_1302403536"/>Lisad<text:bookmark-end text:name="__RefHeading__351_1302403536"/></text:h>
-   <text:p text:style-name="P27"><draw:frame draw:style-name="fr1" draw:name="Frame2" text:anchor-type="paragraph" svg:width="6.5035in" svg:height="4.9102in" draw:z-index="0">
+   <text:h text:style-name="P67" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__351_1302403536"/>Lisad<text:bookmark-end text:name="__RefHeading__351_1302403536"/></text:h>
+   <text:p text:style-name="P31"><draw:frame draw:style-name="fr1" draw:name="Frame2" text:anchor-type="paragraph" svg:width="6.5035in" svg:height="4.9102in" draw:z-index="0">
      <draw:text-box>
-      <text:p text:style-name="P29">Lisa <text:sequence text:ref-name="refLisa0" text:name="Lisa" text:formula="ooow:Lisa+1" style:num-format="1">1</text:sequence> <text:span text:style-name="T4">TODO</text:span></text:p>
+      <text:p text:style-name="P33">Lisa <text:sequence text:ref-name="refLisa0" text:name="Lisa" text:formula="ooow:Lisa+1" style:num-format="1">1</text:sequence> <text:span text:style-name="T4">TODO</text:span></text:p>
       <text:p text:style-name="P16">// <text:span text:style-name="T3">TODO:</text:span></text:p>
-      <text:list xml:id="list7969871590652166579" text:style-name="L1">
+      <text:list xml:id="list2407923767912562036" text:style-name="L1">
        <text:list-item>
-        <text:p text:style-name="P36">Jutumärgid</text:p>
+        <text:p text:style-name="P55">Jutumärgid</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P36">Mis ulatuses tuleks lõputöö tegemist kirjeldada, st pole vist mõtet seletada, kuidas toimib töö tegemiseks kasutatav arvuti kõvaketas.</text:p>
+        <text:p text:style-name="P55">Mis ulatuses tuleks lõputöö tegemist kirjeldada, st pole vist mõtet seletada, kuidas toimib töö tegemiseks kasutatav arvuti kõvaketas.</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p text:style-name="P36">Tundub, et peatükke on juurde vaja... kas see on hea mõte?</text:p>
+        <text:p text:style-name="P55">Tundub, et peatükke on juurde vaja... kas see on hea mõte?</text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P37">Töö tegemisel tekkinud probleemid, ehk mida autor õppis töö tegemise käigus</text:p>
+          <text:p text:style-name="P56">Töö tegemisel tekkinud probleemid, ehk mida autor õppis töö tegemise käigus</text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P38">Erinevate tasemete kasutatavate süsteemide kirjeldus, nt võib olla puutun töö tegemise tõttu kokku serverite haldusega, tarkvara paigaldamisega või ss “uudsete, üliheade ja ülikiirete” JS teekidega, mis kõik arendaja eest ära teevad jms.</text:p>
+          <text:p text:style-name="P57">Erinevate tasemete kasutatavate süsteemide kirjeldus, nt võib olla puutun töö tegemise tõttu kokku serverite haldusega, tarkvara paigaldamisega või ss “uudsete, üliheade ja ülikiirete” JS teekidega, mis kõik arendaja eest ära teevad jms.</text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P39">Võibolla ei peaks sissejuhatuses kõigest kirjutama, mis seal praegu on.</text:p>
+          <text:p text:style-name="P58">Võibolla ei peaks sissejuhatuses kõigest kirjutama, mis seal praegu on.</text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P39">Üsna kindlasti on midagi väga olulist puudu... </text:p>
+          <text:p text:style-name="P58">Üsna kindlasti on midagi väga olulist puudu... </text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -892,8 +966,8 @@
      </draw:text-box>
     </draw:frame><draw:frame draw:style-name="fr2" draw:name="Frame3" text:anchor-type="paragraph" svg:y="5.3602in" svg:width="6.5161in" draw:z-index="1">
      <draw:text-box fo:min-height="0.311in">
-      <text:p text:style-name="P29">Lisa <text:sequence text:ref-name="refLisa1" text:name="Lisa" text:formula="ooow:Lisa+1" style:num-format="1">2</text:sequence> Kood0</text:p>
-      <text:p text:style-name="P28">Kood.... </text:p>
+      <text:p text:style-name="P33">Lisa <text:sequence text:ref-name="refLisa1" text:name="Lisa" text:formula="ooow:Lisa+1" style:num-format="1">2</text:sequence> Kood0</text:p>
+      <text:p text:style-name="P32">Kood.... </text:p>
      </draw:text-box>
     </draw:frame></text:p>
   </office:text>
