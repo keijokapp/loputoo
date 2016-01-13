@@ -20,7 +20,7 @@ static struct ht_hashtable* lastHashCache = NULL;
 #endif
 
 /**
- * loads & returns hash of previous row in the relation
+ * loads & returns hash of previous row of the relation
  * if USE_CACHE is defined, this should not be executed more
  * than once per table per server startup.
  * @param relationName name of relation/table
@@ -73,7 +73,7 @@ const char* loadHash(const char relationName[NAMEDATALEN]) {
 
 /**
  * TODO error checking? (sha256 functions)
- * @param rel relation (table)
+ * @param rel relation in question
  * @param row row to be inserted
  * @returns row with hashchain field filled
  * @note Postgre server takes care of freeing allocated memory
@@ -81,9 +81,8 @@ const char* loadHash(const char relationName[NAMEDATALEN]) {
  */
 HeapTuple hashRecord(const Relation rel, const HeapTuple row) {
 	const char* tableName = SPI_getrelname(rel); // table name
-	
 	int hashchainFieldNumber = SPI_fnumber(rel->rd_att, hashchainFieldName); // hashchain field index
-	int idFieldNumber = SPI_fnumber(rel->rd_att, "id"); // id field index
+	int idFieldNumber = SPI_fnumber(rel->rd_att, "id"); // current row id
 
 	if(hashchainFieldNumber <= 0) {
 		elog(NOTICE, "hashchain triggered on table without hashchain field (%s)", tableName);
@@ -147,7 +146,7 @@ HeapTuple hashRecord(const Relation rel, const HeapTuple row) {
 	ht_hashtable_set(lastHashCache, tableName, hash);
 #endif
 
-	/* create new tuple with hash field filled */
+	/* create new tuple with hash */
 	int columns[1] = { hashchainFieldNumber };
 	Datum values[1] = { CStringGetTextDatum(hash) };
 	HeapTuple modifiedTuple = SPI_modifytuple(rel, row, 1, columns, values, NULL);

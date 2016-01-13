@@ -36,17 +36,31 @@ DECLARE_TRIGGER(hashchainTrigger) {
 		return PointerGetDatum(TRIGGER_FIRED_BY_UPDATE(trigdata->tg_event) ? trigdata->tg_newtuple : trigdata->tg_trigtuple);
 	}
 
+#ifndef LOG_ONLY
+	if(!TRIGGER_FIRED_BEFORE(trigdata->tg_event)) {
+		elog(ERROR, "hashchainTrigger: only for row-level before-INSERT events");
+		return 0;
+	}
+
 	HeapTuple inputRow = trigdata->tg_trigtuple;
 	Relation rel = trigdata->tg_relation;
 
-#ifndef LOG_ONLY
 	HeapTuple modifiedRow = hashRecord(rel, inputRow);
 	return PointerGetDatum(modifiedRow);
 #else
+	if(!TRIGGER_FIRED_AFTER(trigdata->tg_event)) {
+		elog(ERROR, "hashchainTrigger: only for row-level after-INSERT events");
+		return 0;
+	}
+
+	HeapTuple inputRow = trigdata->tg_trigtuple;
+	Relation rel = trigdata->tg_relation;
+
 	int result = logHash(rel, inputRow);
 	if(result < 0) {
 		syslog(LOG_ERR, "Failed to send last hash");
 	}
+	
 	return 0;
 #endif
 }
