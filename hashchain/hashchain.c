@@ -7,21 +7,13 @@
 #include <utils/rel.h>
 #include <utils/builtins.h>
 
-#include "hashRecord.h"
-#ifdef USE_CACHE
-#include "hashtable.h" // not needed if hash caching is disabled
-#endif
+#include "hashchain.h"
 
 static const char hexdigits[16] = "0123456789abcdef";
 static const char hashchainFieldName[] = "hashchain";
 
-#ifdef USE_CACHE
-static struct ht_hashtable* lastHashCache = NULL;
-#endif
-
 /**
  * loads & returns hash of previous row in the relation
- * if USE_CACHE is defined, this should not be executed more
  * than once per table per server startup.
  * @param relationName name of relation/table
  * @returns hashchain value of last row of the relation
@@ -79,7 +71,7 @@ const char* loadHash(const char relationName[NAMEDATALEN]) {
  * @note Postgre server takes care of freeing allocated memory
  * @note elog statements seem to have significant performance impact
  */
-HeapTuple hashRecord(const Relation rel, const HeapTuple row) {
+HeapTuple hashchain(const Relation rel, const HeapTuple row) {
 	const char* tableName = SPI_getrelname(rel); // table name
 	
 	int hashchainFieldNumber = SPI_fnumber(rel->rd_att, hashchainFieldName); // hashchain field index
@@ -90,13 +82,7 @@ HeapTuple hashRecord(const Relation rel, const HeapTuple row) {
 		return NULL; // not hashchain'ed, no-op
 	}
 
-#ifdef USE_CACHE
-	if(lastHashCache == NULL) lastHashCache = ht_hashtable_new(31);
-	const char* prevHash = ht_hashtable_get(lastHashCache, tableName);
-	if(prevHash == NULL) prevHash = loadHash(tableName);
-#else
 	const char* prevHash = loadHash(tableName);
-#endif
 
 	if(prevHash == NULL) {
 		elog(ERROR, "Couldn't get last hash (see system log)");
@@ -140,12 +126,7 @@ HeapTuple hashRecord(const Relation rel, const HeapTuple row) {
 
 	/* send hash & metadata to log server */
 	char* rowId = SPI_getvalue(row, rel->rd_att, idFieldNumber);
-	syslog(LOG_INFO, "%s %s %s %s", tableName, rowId, prevHash, hash);
-
-#ifdef USE_CACHE
-	/* save hash to cache (variable 'hash' will be strdup'ed) */
-	ht_hashtable_set(lastHashCache, tableName, hash);
-#endif
+//	syslog(LOG_INFO, "%s %s %s %s", tableName, rowId, prevHash, hash);
 
 	/* create new tuple with hash field filled */
 	int columns[1] = { hashchainFieldNumber };

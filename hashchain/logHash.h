@@ -6,7 +6,7 @@
 extern "C" {
 #endif
 
-HeapTuple hashRecord(const Relation, const HeapTuple); 
+void logHash(const Relation, const HeapTuple); 
 
 #ifdef __cplusplus
 }
