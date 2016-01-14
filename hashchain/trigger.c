@@ -53,5 +53,5 @@ DECLARE_TRIGGER(logHashTrigger) {
 
 	logHash(rel, inputRow);
 	
-	return 0;
+	return PointerGetDatum(inputRow);
 }
