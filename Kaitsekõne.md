@@ -1,6 +1,6 @@
 ####Tiitelslaid
 
-Tere päevast, austatud komisjon, head kuulajad.
+Austatud komisjon, head kuulajad.
 
 Olen Keijo Kapp ja kaitsen oma lõputööd teemal "Kõrge terviklusega andmeid talletava andmebaasilahenduse prototüüp"
 Juhendajad on Tarmo Teder ja kasutajaorganisatsiooni poolt arendusosakonna arhitekt Deivis Treier
