@@ -40,7 +40,9 @@ Andmebaasitarkvarana kasutame me PostgreSQL'i ning krüptoaheldamine on implemen
 Viimaste kirjete turvalisuse tagamiseks peab räsid saatma ka kolmandale osapoolele, vastasel juhul saaks andmebaasile ligipääsev osapool andmeid manipuleerida.
 
 ####Viies slaid - Krüptoaheldamise joonis
-...
+
+![Krüptoaheldamise näidistabel]
+(https://raw.githubusercontent.com/keijokapp/loputoo/master/hashchain-example-table-cropped.png)
 
 #### Kuues slaid - Digiallkirjastamine
 Digiallkirjastamine toimub vastavalt Eesti Vabariigi digiallkirjastamise seadusele. See annab andmetele ka juriidilise tõestusväärtuse.
@@ -55,10 +57,12 @@ Lühidalt, me kasutame
  * BDOC tüüpi konteinereid, mis on tehniliselt ZIP failid;
  * SHA512 räšialgoritmi, sest SHA256 ei töötanud (fuq);
  * Krüptoseadet, nagu näiteks HSM, mis suhtleb teegiga PKCS11 standardi abil;
- * Time Mark tüüpi allkirju, sest Sertifitseerimiskeskus soovitab nii.
+ * Time Mark tüüpi allkirju, sest Sertifitseerimiskeskus soovitab seda.
 
 ####Seitsmes slaid - Digiallkirjastamise joonis
-...
+
+![Digiallkirjastamise komponendid]
+(https://raw.githubusercontent.com/keijokapp/loputoo/master/digiallkirjastamise-komponendid.png)
 
 ####Kaheksas slaid - Andmete revisioonide hoidmine
 Probleemi lahendamiseks tuleb kohe seada kaks piirangut ja kaks eeldust:
@@ -76,17 +80,18 @@ Olen mõeldnud kahe lahenduse peale
 ####Üheksas slaid - Rekursiivne viitamine eelmisele revisioonile
 Esiteks rekursiivne viitamine eelmisele revisioonile
 
-...
+![Ajaloo näidistabel 0]
+(https://raw.githubusercontent.com/keijokapp/loputoo/master/history-example-0.png)
 
 Probleemiks on sellel keeruline ajaloo päringu ülesehitus, kuid samas on see väga paindlik. Saab valida, kui palju kirjeid ette või tahapoole valitakse.
 
 ####Kümnes slaid - Revisioonide sidumine unikaalse identifikaatoriga
 Teine ja kohati kenam võimalus on revisioonide sidumine unikaalsete identifikaatoritega. Asutuse infosüsteemides kasutatakse selliste identifikaatoritena UUID-e
 
-...
+![Ajaloo näidistabel 1]
+(https://raw.githubusercontent.com/keijokapp/loputoo/master/history-example-1.png)
 
 Selle miinuseks on, et ajalise järjestuse saamiseks peab kirjed sorteerima, aga samas on päringud väga lihtsad.
 
 ####Üheteistkümnes slaid - Tänan kuulamast
 
-[*jään lolli näoga komisjoni esimeest vahtima*]
